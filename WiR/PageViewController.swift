@@ -2,9 +2,9 @@
 //  PageViewController.swift
 //  WiR
 //
-//  Created by Binder, Dawn J. on 8/8/18.
-//  Copyright © 2018 Binder, Dawn J. All rights reserved.
 //
+//
+// To control the intro scrolling pages
 
 import UIKit
 
