@@ -13,22 +13,11 @@
 		DF1C6C29211BC51C0093A017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C28211BC51C0093A017 /* Assets.xcassets */; };
 		DF1C6C2C211BC51C0093A017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C2A211BC51C0093A017 /* LaunchScreen.storyboard */; };
 		DF1C6C34211BC6C70093A017 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1C6C33211BC6C70093A017 /* PageViewController.swift */; };
-		DF1C6C3D211BD5B00093A017 /* Vanellope.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C36211BD5B00093A017 /* Vanellope.png */; };
-		DF1C6C3E211BD5B00093A017 /* RalphandArrow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C37211BD5B00093A017 /* RalphandArrow.jpg */; };
-		DF1C6C3F211BD5B00093A017 /* Felixjr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C38211BD5B00093A017 /* Felixjr.jpg */; };
-		DF1C6C40211BD5B00093A017 /* RalphandVan_smirk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C39211BD5B00093A017 /* RalphandVan_smirk.jpg */; };
-		DF1C6C41211BD5B00093A017 /* Ralph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C3A211BD5B00093A017 /* Ralph.jpg */; };
-		DF1C6C42211BD5B00093A017 /* RalphandVan_determined.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C3B211BD5B00093A017 /* RalphandVan_determined.jpg */; };
-		DF1C6C43211BD5B00093A017 /* RalphandVan_annoyed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C3C211BD5B00093A017 /* RalphandVan_annoyed.jpg */; };
-		DF1C6C45211BE7D20093A017 /* Mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C44211BE7D20093A017 /* Mouse.png */; };
-		DF1C6C48211BEE210093A017 /* Vanellope_Lean.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C46211BEE200093A017 /* Vanellope_Lean.png */; };
-		DF1C6C49211BEE210093A017 /* Ralph happy.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C47211BEE210093A017 /* Ralph happy.png */; };
-		DF1C6C4B211BF0F00093A017 /* Microphone_Perm.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C4A211BF0EF0093A017 /* Microphone_Perm.png */; };
 		DF1C6C4D211BF8FE0093A017 /* phone ring.wav in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C4C211BF8FD0093A017 /* phone ring.wav */; };
-		DF1C6C52211C0C940093A017 /* RedPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C50211C0C920093A017 /* RedPhone.png */; };
-		DF1C6C53211C0C940093A017 /* GreenPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C51211C0C930093A017 /* GreenPhone.png */; };
 		DF1C6C57211C0FFE0093A017 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1C6C56211C0FFE0093A017 /* ImageCollectionViewCell.swift */; };
-		DF1C6C59211CC4EC0093A017 /* Microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C58211CC4EB0093A017 /* Microphone.png */; };
+		DF92099D211E319600169145 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF92099C211E319500169145 /* Default-568h@2x.png */; };
+		DF92099F211E34F400169145 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF92099E211E34F400169145 /* Default-568h@2x.png */; };
+		DFFC9EDA211E1A9E00B1104E /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFC9ED9211E1A9E00B1104E /* ContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,22 +29,11 @@
 		DF1C6C2B211BC51C0093A017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF1C6C2D211BC51C0093A017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF1C6C33211BC6C70093A017 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
-		DF1C6C36211BD5B00093A017 /* Vanellope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vanellope.png; sourceTree = "<group>"; };
-		DF1C6C37211BD5B00093A017 /* RalphandArrow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RalphandArrow.jpg; sourceTree = "<group>"; };
-		DF1C6C38211BD5B00093A017 /* Felixjr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Felixjr.jpg; sourceTree = "<group>"; };
-		DF1C6C39211BD5B00093A017 /* RalphandVan_smirk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RalphandVan_smirk.jpg; sourceTree = "<group>"; };
-		DF1C6C3A211BD5B00093A017 /* Ralph.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ralph.jpg; sourceTree = "<group>"; };
-		DF1C6C3B211BD5B00093A017 /* RalphandVan_determined.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RalphandVan_determined.jpg; sourceTree = "<group>"; };
-		DF1C6C3C211BD5B00093A017 /* RalphandVan_annoyed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RalphandVan_annoyed.jpg; sourceTree = "<group>"; };
-		DF1C6C44211BE7D20093A017 /* Mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mouse.png; sourceTree = "<group>"; };
-		DF1C6C46211BEE200093A017 /* Vanellope_Lean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vanellope_Lean.png; sourceTree = "<group>"; };
-		DF1C6C47211BEE210093A017 /* Ralph happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ralph happy.png"; sourceTree = "<group>"; };
-		DF1C6C4A211BF0EF0093A017 /* Microphone_Perm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Microphone_Perm.png; sourceTree = "<group>"; };
 		DF1C6C4C211BF8FD0093A017 /* phone ring.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "phone ring.wav"; sourceTree = "<group>"; };
-		DF1C6C50211C0C920093A017 /* RedPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedPhone.png; sourceTree = "<group>"; };
-		DF1C6C51211C0C930093A017 /* GreenPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenPhone.png; sourceTree = "<group>"; };
 		DF1C6C56211C0FFE0093A017 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
-		DF1C6C58211CC4EB0093A017 /* Microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Microphone.png; sourceTree = "<group>"; };
+		DF92099C211E319500169145 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DF92099E211E34F400169145 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DFFC9ED9211E1A9E00B1104E /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +50,8 @@
 		DF1C6C15211BC51C0093A017 = {
 			isa = PBXGroup;
 			children = (
+				DF92099C211E319500169145 /* Default-568h@2x.png */,
+				DF92099E211E34F400169145 /* Default-568h@2x.png */,
 				DF1C6C20211BC51C0093A017 /* WiR */,
 				DF1C6C1F211BC51C0093A017 /* Products */,
 			);
@@ -90,6 +70,7 @@
 			children = (
 				DF1C6C25211BC51C0093A017 /* Main.storyboard */,
 				DF1C6C21211BC51C0093A017 /* AppDelegate.swift */,
+				DFFC9ED9211E1A9E00B1104E /* ContactsViewController.swift */,
 				DF1C6C56211C0FFE0093A017 /* ImageCollectionViewCell.swift */,
 				DF1C6C23211BC51C0093A017 /* ViewController.swift */,
 				DF1C6C33211BC6C70093A017 /* PageViewController.swift */,
@@ -105,20 +86,6 @@
 		DF1C6C35211BD5B00093A017 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				DF1C6C36211BD5B00093A017 /* Vanellope.png */,
-				DF1C6C47211BEE210093A017 /* Ralph happy.png */,
-				DF1C6C51211C0C930093A017 /* GreenPhone.png */,
-				DF1C6C50211C0C920093A017 /* RedPhone.png */,
-				DF1C6C4A211BF0EF0093A017 /* Microphone_Perm.png */,
-				DF1C6C58211CC4EB0093A017 /* Microphone.png */,
-				DF1C6C46211BEE200093A017 /* Vanellope_Lean.png */,
-				DF1C6C37211BD5B00093A017 /* RalphandArrow.jpg */,
-				DF1C6C44211BE7D20093A017 /* Mouse.png */,
-				DF1C6C38211BD5B00093A017 /* Felixjr.jpg */,
-				DF1C6C39211BD5B00093A017 /* RalphandVan_smirk.jpg */,
-				DF1C6C3A211BD5B00093A017 /* Ralph.jpg */,
-				DF1C6C3B211BD5B00093A017 /* RalphandVan_determined.jpg */,
-				DF1C6C3C211BD5B00093A017 /* RalphandVan_annoyed.jpg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -182,24 +149,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1C6C45211BE7D20093A017 /* Mouse.png in Resources */,
-				DF1C6C59211CC4EC0093A017 /* Microphone.png in Resources */,
-				DF1C6C3F211BD5B00093A017 /* Felixjr.jpg in Resources */,
-				DF1C6C48211BEE210093A017 /* Vanellope_Lean.png in Resources */,
-				DF1C6C53211C0C940093A017 /* GreenPhone.png in Resources */,
+				DF92099F211E34F400169145 /* Default-568h@2x.png in Resources */,
+				DF92099D211E319600169145 /* Default-568h@2x.png in Resources */,
 				DF1C6C2C211BC51C0093A017 /* LaunchScreen.storyboard in Resources */,
-				DF1C6C52211C0C940093A017 /* RedPhone.png in Resources */,
-				DF1C6C49211BEE210093A017 /* Ralph happy.png in Resources */,
 				DF1C6C4D211BF8FE0093A017 /* phone ring.wav in Resources */,
-				DF1C6C43211BD5B00093A017 /* RalphandVan_annoyed.jpg in Resources */,
 				DF1C6C29211BC51C0093A017 /* Assets.xcassets in Resources */,
-				DF1C6C40211BD5B00093A017 /* RalphandVan_smirk.jpg in Resources */,
-				DF1C6C3E211BD5B00093A017 /* RalphandArrow.jpg in Resources */,
-				DF1C6C4B211BF0F00093A017 /* Microphone_Perm.png in Resources */,
-				DF1C6C42211BD5B00093A017 /* RalphandVan_determined.jpg in Resources */,
-				DF1C6C3D211BD5B00093A017 /* Vanellope.png in Resources */,
 				DF1C6C27211BC51C0093A017 /* Main.storyboard in Resources */,
-				DF1C6C41211BD5B00093A017 /* Ralph.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +169,7 @@
 				DF1C6C24211BC51C0093A017 /* ViewController.swift in Sources */,
 				DF1C6C57211C0FFE0093A017 /* ImageCollectionViewCell.swift in Sources */,
 				DF1C6C22211BC51C0093A017 /* AppDelegate.swift in Sources */,
+				DFFC9EDA211E1A9E00B1104E /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
