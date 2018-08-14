@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		238FA349212223370047776C /* CharacterHoloCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238FA348212223370047776C /* CharacterHoloCallViewController.swift */; };
 		DF1C6C22211BC51C0093A017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1C6C21211BC51C0093A017 /* AppDelegate.swift */; };
 		DF1C6C24211BC51C0093A017 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1C6C23211BC51C0093A017 /* ViewController.swift */; };
 		DF1C6C27211BC51C0093A017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C25211BC51C0093A017 /* Main.storyboard */; };
@@ -15,12 +16,11 @@
 		DF1C6C34211BC6C70093A017 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1C6C33211BC6C70093A017 /* PageViewController.swift */; };
 		DF1C6C4D211BF8FE0093A017 /* phone ring.wav in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C4C211BF8FD0093A017 /* phone ring.wav */; };
 		DF1C6C57211C0FFE0093A017 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1C6C56211C0FFE0093A017 /* ImageCollectionViewCell.swift */; };
-		DF92099D211E319600169145 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF92099C211E319500169145 /* Default-568h@2x.png */; };
-		DF92099F211E34F400169145 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF92099E211E34F400169145 /* Default-568h@2x.png */; };
 		DFFC9EDA211E1A9E00B1104E /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFC9ED9211E1A9E00B1104E /* ContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		238FA348212223370047776C /* CharacterHoloCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterHoloCallViewController.swift; sourceTree = "<group>"; };
 		DF1C6C1E211BC51C0093A017 /* WiR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1C6C21211BC51C0093A017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF1C6C23211BC51C0093A017 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,8 +31,6 @@
 		DF1C6C33211BC6C70093A017 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		DF1C6C4C211BF8FD0093A017 /* phone ring.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "phone ring.wav"; sourceTree = "<group>"; };
 		DF1C6C56211C0FFE0093A017 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
-		DF92099C211E319500169145 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		DF92099E211E34F400169145 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DFFC9ED9211E1A9E00B1104E /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,8 +48,6 @@
 		DF1C6C15211BC51C0093A017 = {
 			isa = PBXGroup;
 			children = (
-				DF92099C211E319500169145 /* Default-568h@2x.png */,
-				DF92099E211E34F400169145 /* Default-568h@2x.png */,
 				DF1C6C20211BC51C0093A017 /* WiR */,
 				DF1C6C1F211BC51C0093A017 /* Products */,
 			);
@@ -74,6 +70,7 @@
 				DF1C6C56211C0FFE0093A017 /* ImageCollectionViewCell.swift */,
 				DF1C6C23211BC51C0093A017 /* ViewController.swift */,
 				DF1C6C33211BC6C70093A017 /* PageViewController.swift */,
+				238FA348212223370047776C /* CharacterHoloCallViewController.swift */,
 				DF1C6C28211BC51C0093A017 /* Assets.xcassets */,
 				DF1C6C4C211BF8FD0093A017 /* phone ring.wav */,
 				DF1C6C35211BD5B00093A017 /* Images */,
@@ -149,8 +146,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF92099F211E34F400169145 /* Default-568h@2x.png in Resources */,
-				DF92099D211E319600169145 /* Default-568h@2x.png in Resources */,
 				DF1C6C2C211BC51C0093A017 /* LaunchScreen.storyboard in Resources */,
 				DF1C6C4D211BF8FE0093A017 /* phone ring.wav in Resources */,
 				DF1C6C29211BC51C0093A017 /* Assets.xcassets in Resources */,
@@ -165,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238FA349212223370047776C /* CharacterHoloCallViewController.swift in Sources */,
 				DF1C6C34211BC6C70093A017 /* PageViewController.swift in Sources */,
 				DF1C6C24211BC51C0093A017 /* ViewController.swift in Sources */,
 				DF1C6C57211C0FFE0093A017 /* ImageCollectionViewCell.swift in Sources */,
