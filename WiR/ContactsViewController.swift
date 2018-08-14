@@ -78,6 +78,10 @@ class ContactsViewController: UIViewController, UICollectionViewDelegate, UIColl
      -------------------
     */
     
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {
+        
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "characterCallViewController" {
             let characterHoloCallViewController: CharacterHoloCallViewController = segue.destination as! CharacterHoloCallViewController

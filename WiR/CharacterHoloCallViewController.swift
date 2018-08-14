@@ -37,6 +37,7 @@ class CharacterHoloCallViewController: UIViewController {
     @IBAction func endCallButtonTapped(_ sender: UIButton) {
         navigationController?.popViewController(animated: true)
         print("end pressed")
+        self.performSegue(withIdentifier: "unwindToContactsViewController", sender: self)
     }
     
     

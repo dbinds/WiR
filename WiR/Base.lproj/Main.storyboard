@@ -144,9 +144,11 @@
                     </view>
                     <connections>
                         <outlet property="CharacterTESTImageView" destination="qKT-At-qqN" id="h3g-CJ-jan"/>
+                        <segue destination="r8i-vO-WZc" kind="unwind" identifier="unwindToContactsViewController" unwindAction="prepareForUnwindWithSegue:" id="ryh-e4-C9y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wxp-FY-sRS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="r8i-vO-WZc" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="4926" y="1066"/>
         </scene>
