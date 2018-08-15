@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		238FA349212223370047776C /* CharacterHoloCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238FA348212223370047776C /* CharacterHoloCallViewController.swift */; };
+		23C9E3FB2123878A00E29398 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C9E3FA2123878A00E29398 /* AVFoundation.framework */; };
+		23C9E3FD2123886400E29398 /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C9E3FC2123886400E29398 /* Speech.framework */; };
 		DF1C6C22211BC51C0093A017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1C6C21211BC51C0093A017 /* AppDelegate.swift */; };
 		DF1C6C24211BC51C0093A017 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1C6C23211BC51C0093A017 /* ViewController.swift */; };
 		DF1C6C27211BC51C0093A017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1C6C25211BC51C0093A017 /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		238FA348212223370047776C /* CharacterHoloCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterHoloCallViewController.swift; sourceTree = "<group>"; };
+		23C9E3FA2123878A00E29398 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		23C9E3FC2123886400E29398 /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
 		DF1C6C1E211BC51C0093A017 /* WiR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1C6C21211BC51C0093A017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF1C6C23211BC51C0093A017 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C9E3FD2123886400E29398 /* Speech.framework in Frameworks */,
+				23C9E3FB2123878A00E29398 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23C9E3F92123878A00E29398 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23C9E3FC2123886400E29398 /* Speech.framework */,
+				23C9E3FA2123878A00E29398 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF1C6C15211BC51C0093A017 = {
 			isa = PBXGroup;
 			children = (
 				DF1C6C20211BC51C0093A017 /* WiR */,
 				DF1C6C1F211BC51C0093A017 /* Products */,
+				23C9E3F92123878A00E29398 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

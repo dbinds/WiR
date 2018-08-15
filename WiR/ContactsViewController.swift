@@ -9,10 +9,11 @@
 import UIKit
 
 class ContactsViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
-    
+
     //Segue Variable
     var selectedCharacter = 0
     
+    @IBOutlet var collectionViewer: UICollectionView!
     @IBAction func mic(_ sender: UIButton) {
         //var accessMic: AVAudioSession.microphonePermission
     }
@@ -39,53 +40,34 @@ class ContactsViewController: UIViewController, UICollectionViewDelegate, UIColl
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImageCollectionViewCell", for: indexPath) as! ImageCollectionViewCell
    
         cell.imgImage.image = imageArray[indexPath.row]
-    
-        
-        //Get character for segue
-
+        cell.imgImage.tag = indexPath.row
         
         return cell
     }
     
-   
-    // Called before the cell is displayed
-    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImageCollectionViewCell", for: indexPath) as! ImageCollectionViewCell
-        switch cell.imgImage.image{
-            case UIImage(named: "Van"):
-                selectedCharacter = 2
-            case UIImage(named: "Fel"):
-                selectedCharacter = 3
-            default:
-                selectedCharacter = 1
-        }
-        //print(indexPath.row)
-        print(selectedCharacter)
-    }
-    
-    // Called when the cell is displayed
-    func collectionView(_ collectionView: UICollectionView, didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        //print(indexPath.row)
-        
-    }
+    /* Start Call button tapped func */
     
     @IBAction func contactsButtonTapped(_ sender: UIButton) {
+        //let index = collectionView.contentOffset.x / collectionView.bounds.size.width
+        selectedCharacter = Int(collectionViewer.contentOffset.x/collectionViewer.bounds.size.width)
+        print(selectedCharacter)
         performSegue(withIdentifier: "characterCallViewController", sender: self)
     }
+    
     /*
-     -------------------
-     Prepare and Preform Segue
-     -------------------
+     ----------------------------------------------
+     Prepare and Preform Unwind Segue and Segue
+     ----------------------------------------------
     */
     
     @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {
-        
+        //Leave empty
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "characterCallViewController" {
             let characterHoloCallViewController: CharacterHoloCallViewController = segue.destination as! CharacterHoloCallViewController
-        
+            //let currIndexPath = collectionViewer.indexPathsForSelectedItems
             characterHoloCallViewController.characterRecived = selectedCharacter
         }
     }

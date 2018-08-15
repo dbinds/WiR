@@ -99,6 +99,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="n9e-jn-uEn"/>
                     <connections>
+                        <outlet property="collectionViewer" destination="byj-6M-AOi" id="zjl-J8-skI"/>
                         <segue destination="GnW-lS-X9Y" kind="show" identifier="characterCallViewController" id="UhW-Mr-oNm"/>
                     </connections>
                 </viewController>

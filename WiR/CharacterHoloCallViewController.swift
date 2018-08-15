@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import Speech
+import AVFoundation
 
-class CharacterHoloCallViewController: UIViewController {
+class CharacterHoloCallViewController: UIViewController, SFSpeechRecognizerDelegate, AVAudioRecorderDelegate{
     
     @IBOutlet var CharacterTESTImageView: UIImageView!
     
@@ -17,15 +19,22 @@ class CharacterHoloCallViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+//        Request Audio Recording permission
+        AVAudioSession.sharedInstance().requestRecordPermission () {
+            [unowned self] allowed in
+            if allowed {print("The user allowed microphone permission")}
+            else {print("User did not allow mircrophone permission")}
+        }
+    
         // Do any additional setup after loading the view.
         switch characterRecived {
             case 0:
-                CharacterTESTImageView.image = #imageLiteral(resourceName: "Fel")
-            case 2:
+                CharacterTESTImageView.image = #imageLiteral(resourceName: "Ral")
+            case 1:
                 CharacterTESTImageView.image = #imageLiteral(resourceName: "Van")
             default:
-                CharacterTESTImageView.image = #imageLiteral(resourceName: "Ral")
+                CharacterTESTImageView.image = #imageLiteral(resourceName: "Fel")
         }
     }
 
@@ -39,6 +48,7 @@ class CharacterHoloCallViewController: UIViewController {
         print("end pressed")
         self.performSegue(withIdentifier: "unwindToContactsViewController", sender: self)
     }
+    
     
     
     /*
